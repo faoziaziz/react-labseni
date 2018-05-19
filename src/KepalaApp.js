@@ -76,11 +76,11 @@ const GedeTron =(
     <div>
       <Jumbotron>
         <h1 className="display-3">Je aime tu!</h1>
-        <p className="lead">Ini papan pengumuman "Aing Cinta Maneh"</p>
+        <p className="lead">Ini papan pengumuman "Maneh geulis beud", asseek.</p>
         <hr className="my-2" />
         <p>Tunggu waktu buat ngerjain ta dulu.</p>
         <p className="lead">
-          <Button color="primary">Love More</Button>
+          <Button color="primary">Asseek More</Button>
         </p>
       </Jumbotron>
     </div>
