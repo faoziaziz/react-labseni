@@ -78,7 +78,7 @@ const GedeTron =(
         <hr className="my-2" />
         <p>Tunggu waktu buat ngerjain ta dulu.</p>
         <p className="lead">
-          <Button color="primary">Learn More</Button>
+          <Button color="primary">Love More</Button>
         </p>
       </Jumbotron>
     </div>

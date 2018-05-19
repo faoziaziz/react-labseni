@@ -4,6 +4,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'reactstrap';
 import KepalaApp from './KepalaApp';
+import kartuGuys from './laman/Utama';
 
 
 
@@ -11,7 +12,8 @@ class App extends Component {
   render() {
     return (
       [
-        tester
+      //  tester
+        kartuGuys
       ]
     );
   }
