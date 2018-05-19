@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {
   Button,
+  Breadcrumb,
+  BreadcrumbItem,
   Card,
   CardImg,
   CardBody,
@@ -39,4 +41,10 @@ const kartuGuys=(
      </Row>
    </div>
  );
- export default kartuGuys;
+ const RotiMadu=(
+   <Breadcrumb>
+     <BreadcrumbItem active>Utama</BreadcrumbItem>
+   </Breadcrumb>
+ );
+
+ export default [RotiMadu, kartuGuys];
