@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import KontenKartu from './KontenKartu.json';
 import {
   Button,
   Breadcrumb,
@@ -13,7 +14,30 @@ import {
   Row
 } from 'reactstrap';
 
-
+class KartuJson extends Component{
+  render(){
+    return(
+      <div>
+        <Row>
+          {
+            KontenKartu.map(function(Kartu){
+              return
+              (<Col sm="4">
+                <Card body>
+                  <CardTitle>{Kartu.title}</CardTitle>
+                  <CardText>With supporting text below as a natural
+                    lead-in to additional content.
+                  </CardText>
+                  <Button>{Kartu.jalur}</Button>
+               </Card>
+              </Col>);
+            })
+          }
+        </Row>
+      </div>
+    );
+  }
+}
 const kartuGuys=(
    <div>
      <Row>
@@ -42,10 +66,14 @@ const kartuGuys=(
      </Row>
    </div>
  );
+
+
  const RotiMadu=(
    <Breadcrumb>
      <BreadcrumbItem active>Utama</BreadcrumbItem>
    </Breadcrumb>
  );
+
+
 
  export default [RotiMadu, kartuGuys];

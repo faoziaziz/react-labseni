@@ -42,7 +42,7 @@ export default class KepalaApp extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/news/">Components</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/faoziaziz">GitHub</NavLink>
