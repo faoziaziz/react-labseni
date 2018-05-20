@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import kartuGuys from './Utama';
+import sarappPage from './SARapp/SARappPage.js';
 // Each logical "route" has two components, one for
 // the sidebar and one for the main area. We want to
 // render both of them in different places when the
@@ -13,9 +14,9 @@ const routes = [
     main: () => kartuGuys
   },
   {
-    path: "/silit",
+    path: "/sarapp",
     sidebar: () => <div>bubblegum!</div>,
-    main: () => kartuGuys
+    main: () => sarappPage
   },
   {
     path: "/shoelaces",
